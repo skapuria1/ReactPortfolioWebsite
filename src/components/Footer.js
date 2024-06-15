@@ -8,10 +8,12 @@ function Footer() {
     <div className='footer-container'>
         <section className="footer-subscription">
             <p className="footer-subscription-heading">
-                Join the Adventure newsletter to receive our best vacation deals.
+                Get in touch!
             </p>
             <p className="footer-subscription-text">
-                You can unsubscribe at any time.
+                If you have any questions, opportunities for 
+                collaboration, or just want to connect, please feel free to reach out by 
+                by entering your email down below. I'll get back to you as soon as possible.
             </p>
             <div className="input-areas">
                 <form>
@@ -21,7 +23,7 @@ function Footer() {
                 </form>
             </div>
         </section>
-        <div className="footer-links">
+       {/* <div className="footer-links">
             <div className="footer-link-wrapper">
                 <div className="footer-link-items">
                     <h2>About Us</h2>
@@ -61,15 +63,15 @@ function Footer() {
                 </div>
 
             </div>
-        </div> 
+        </div> */}
         <section className="social-media">
             <div className="social-media-wrap">
                 <div className="footer-logo">
                     <Link to='/' className="social-logo">
-                        TRVL <i className="fab fa-typo3"></i>
+                    <i class="fa-solid fa-power-off"></i> SK 
                     </Link>
                 </div>
-                <small className="website-rights">TRVL 2020</small>
+                <small className="website-rights">SK 2020</small>
                 <div className="social-icons">
                     <Link className="social-icon-link facebook"
                     to="/"

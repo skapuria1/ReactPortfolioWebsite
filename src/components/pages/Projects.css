@@ -1,0 +1,65 @@
+/*.products {
+    position: relative;
+    width: 300px; 
+  }*/
+  
+  /*.projects h1{
+    margin-bottom: 40px; /* Add some space between h1 and p 
+  }*/
+  .project-page {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/public/images/projectsbackground.jpg');
+    background-size: cover;
+    filter: blur(4px);
+    z-index: -1;
+  }
+  .project-page header{
+    z-index: -2;
+    justify-content: left;
+    color: white;
+  }
+  .content {
+    z-index: 1;
+    text-align: center;
+    color: white;
+  }
+  
+  .repository {
+    margin-top: 20px;
+    padding-bottom: 70%;
+  }
+  
+  .repository a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+    font-size: 24px;
+  }
+  
+  .repository a:hover {
+    color: #007bff; /* Change color on hover */
+  }
+
+  .content h1{
+    color: white;
+    font-size: 64px;
+    padding-bottom: 20%;
+  }
+
+  .repository p{
+    color: rgb(185, 180, 180);
+    font-size: 30px;
+  }
+  

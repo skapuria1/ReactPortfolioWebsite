@@ -25,8 +25,11 @@ video{
 }
 .hero-container > p{
     margin-top: 8px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
     color: #fff;
-    font-size: 32px;
+    font-size: 22px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .hero-btns{
@@ -40,6 +43,18 @@ video{
     margin-left: 4px;
 }
 
+.resume-btn{
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer; 
+}
+.resume-btn,
+.resume-btn {
+  background-color: #fff; /* Change background color on hover or focus */
+  color: #222; /* Change text color */
+}
 @media screen and (max-width: 960px){
     .hero-container > h1{
         font-size: 70px;

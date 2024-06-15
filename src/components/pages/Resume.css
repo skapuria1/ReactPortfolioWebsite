@@ -1,0 +1,69 @@
+.resume {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .header-details {
+    margin-left: 20px; /* Adjust spacing between profile pic and details */
+  }
+  .header-details h1{
+    text-align: left;
+  }
+  
+  .education-item,
+  .experience-item {
+    margin-bottom: 20px;
+  }
+  
+  .skills ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills ul li {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    margin-top: 5px;
+  margin-bottom: 5px;
+    color: #333;
+  }
+  
+  p {
+    margin-top: 5px;
+  margin-bottom: 5px;
+    color: #555;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+  }
+  
+  header h1,
+  header p {
+    margin: 5px 0;
+  }
+  
+  .profile-pic {
+    width: 150px; /* Adjust size as needed */
+    height: 150px;
+    border-radius: 50%; /* Makes the image circular */
+    overflow: hidden; /* Hides any parts of the image that are outside the circular shape */
+  }
+  
+  .profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire circle without stretching */
+  }
