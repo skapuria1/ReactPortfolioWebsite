@@ -11,7 +11,7 @@ export default function Projects() {
                 <h1>My Projects</h1>
                 <div className="repository">
                     <p>Check out my projects on GitHub:</p>
-                    <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-github"></i>&nbsp;GitHub</a>
+                    <a href="https://github.com/skapuria1" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-github"></i>&nbsp;GitHub</a>
                 </div>
             </div>
         </div>
