@@ -7,8 +7,8 @@
 
 .home,
 .services,
-.projects,
-.sign-up {
+.projects
+ {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -35,10 +35,16 @@
 }
 
 .sign-up {
-  background-image: url('/public/images/img-8.jpg');
+  background-image: url('/public/images/img-12.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+  /*color: #fff;*/
+  /*font-size: 64px;*/
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  
 }
