@@ -4,7 +4,7 @@
   padding: 55px; 
   border: 1px solid #ccc;
   border-radius: 15px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Reduced shadow */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);  /* Reduced shadow */
   background-color: rgb(129, 129, 129);
 }
 
