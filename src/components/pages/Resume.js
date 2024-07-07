@@ -60,9 +60,7 @@ export default function Resume() {
                         <li>Conducted investigations into provider site temperature excursion incidents; coordinates activities to resolve problems.</li>
                         <li>During the COVID-19 pandemic, collaborated with cross-functional teams, including healthcare professionals, government agencies, and pharmaceutical companies, to streamline the COVID-19 vaccine distribution process and optimize resource allocation.</li>
                         <li>Develop and conduct trainings for PQA and provider office staff on immunization best practices.</li>
-                        <li>Answer routine vaccine-related questions from providers, parents, health plans, and the public at large, and make appropriate referrals.</li>
                         <li>Train providers on vaccine ordering and management, CIR reporting and vaccine accountability issues.</li>
-                        <li>Develop strategies to promote uptake of Digital Data Logger thermometers and appropriate vaccine storage units by vaccine provider.</li>
                     </ul>
                 </div>
                 <div className="experience-item">
