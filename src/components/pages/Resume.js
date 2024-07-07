@@ -36,7 +36,7 @@ export default function Resume() {
             <section className="experience">
                 <h2>Experience</h2>
                 <div className="experience-item">
-                    <h3>GRIT LLC</h3>
+                    <h3>GRIT PPO</h3>
                     <p>Software Operations Specialist</p>
                     <p>February 2023 - Present</p>
                     <ul>
