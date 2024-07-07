@@ -54,3 +54,11 @@ textarea {
 .submitButton:hover {
   background-color: #218838;
 }
+
+.confirmationMessage {
+  margin-top: 20px;
+  color: #28a745; /* Green color for the check mark */
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
