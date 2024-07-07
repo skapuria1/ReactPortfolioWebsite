@@ -22,14 +22,13 @@ export default function Resume() {
                 <h2>Education</h2>
                 <div className="education-item">
                     <h3>CUNY Hunter College</h3>
-                    <p>Bachelor of Arts in Computer Science</p>
+                    <p>Bachelors Computer Science</p>
                     <p>Graduated: 2022</p>
                     <p><u>Undergraduate Coursework:</u> Operating Systems; Data Structures and Algorithms; Object Oriented Programming; Calculus; Computer Architecture; Discrete Structures; Intro to Robotics; Networks and Communication; Databases</p>
                 </div>
                 <div className="education-item">
                     <h3>Brooklyn Technical High School</h3>
                     <p>Major Diploma: Software Engineering</p>
-                    <p>Graduated: 2017</p>
                 </div>
             </section>
 
