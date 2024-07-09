@@ -12,7 +12,7 @@ export default function Resume() {
                 </div>
                 <div className="header-details">
                     <h1>Sammy Kapuria</h1>
-                    <p>Front End Developer</p>
+                    <p>Fullstack Developer</p>
                     <p>Email: sammykapuria@gmail.com</p>
                     <p>Phone: 123-456-7890</p>
                 </div>
