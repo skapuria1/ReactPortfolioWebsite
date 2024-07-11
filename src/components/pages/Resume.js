@@ -81,10 +81,11 @@ export default function Resume() {
                 <ul>
                     <li>Python</li>
                     <li>React</li>
+                    <li>Swift</li>
+                    <li>C++</li>
                     <li>JavaScript</li>
                     <li>HTML</li>
                     <li>CSS</li>
-                    <li>C++</li>
                     <li>SQL</li>
                     <li>Git</li>
                     <li>Responsive Design</li>
