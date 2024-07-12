@@ -14,7 +14,6 @@ export default function Resume() {
                     <h1>Sammy Kapuria</h1>
                     <p>Fullstack Developer</p>
                     <p>Email: sammykapuria@gmail.com</p>
-                    <p>Phone: 123-456-7890</p>
                 </div>
             </header>
 
@@ -36,22 +35,23 @@ export default function Resume() {
                 <h2>Experience</h2>
                 <div className="experience-item">
                     <h3>GRIT PPO</h3>
-                    <p>Software Operations Specialist</p>
+                    <p>Junior Developer</p>
                     <p>February 2023 - Present</p>
                     <ul>
+                        <li>Led multiple projects, specializing in maximizing workflow efficiency and productivity by fully utilizing the G Suite platform, including comprehensive user management and feature utilization.</li>
+                        <li>Enhanced and maintained multiple React-based applications by developing reusable and efficient React components, resulting in a 20% improvement in development speed for new features, and collaborated with senior developers, UX/UI designers, and QA teams to ensure optimal performance and timely delivery of updates.</li>
                         <li>Automated the process of call logs and dispositions being FTP'd from Five9 to the local server using Python and MySQL, subsequently uploading them to Retool, significantly improving agent KPI tracking by management.</li>
-                        <li>Created an AI call center agent using Happitu, improving customer service response times and efficiency.</li>
-                        <li>Developed and enhanced rate cards using HTML and CSS, incorporating a generalized checklist to streamline sales processes for agents, resulting in increased efficiency and accuracy.</li>
-                        <li>Successfully managed and resolved numerous technical tickets through Atlassian ticketing system, addressing various hardware and software issues including Five9, Front, and Slack.</li>
-                        <li>Integrated live chat features using Zoho, enhancing communication channels and customer support capabilities.</li>
-                        <li>Implemented visual improvements to rate cards, enhancing user experience and readability for agents.</li>
+                        <li>Resolved numerous technical tickets through the Jira ticketing system, addressing hardware and software issues with Five9, Front, and Slack.</li>
+                        <li>Developed, designed, and implemented rate cards using React.js, HTML, and CSS, resolving any bugs or issues with rate card code.</li>
+                        <li>Utilized Google Calendar API and Google Apps Script to automate creating, editing events triggered by certain conditions.</li>
+                        <li>•	Maintained servers to ensure smooth operation, promptly addressing any issues or bugs to minimize downtime and optimize performance.</li>
                     </ul>
                 </div>
 
                 <div className="experience-item">
                     <h3>NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE</h3>
                     <p>COLLEGE AIDE - ASSIGNMENT LEVEL II (INFORMATION TECHNOLOGY)</p>
-                    <p>November 2019 - February 2023</p>
+                    <p>November 2019 - January 2023</p>
                     <ul>
                         <li>Utilized SQL to query CIR databases for immunization records, providing essential information to healthcare providers and parents regarding the retrieval of immunization records.</li>
                         <li>Assisted provider offices with vaccine orders and Vaccine for Children (VFC) Program re-enrollment and assist with providing education and information about the VFC program and its requirements.</li>
@@ -63,15 +63,23 @@ export default function Resume() {
                         <li>Train providers on vaccine ordering and management, CIR reporting and vaccine accountability issues.</li>
                     </ul>
                 </div>
-                <div className="experience-item">
-                    <h3>COMPUTER SCIENCE CLUB AT HUNTER COLLEGE</h3>
-                    <p>PROJECT MANAGER</p>
-                    <p>July 2018 - May 2021</p>
+            </section>
+
+            <section className="proj">
+                <h2>Projects</h2>
+                <div className="project-item">
+                    <h3>Computer Science Final Project</h3>
                     <ul>
                         <li>Assumed leadership for a four-person team tasked with creating a React based organizational app.</li>
                         <li>Facilitated brainstorming sessions to generate ideas and proficiently assigned technical responsibilities to team members.</li>
                         <li>Conducted weekly Discord meetings for task delegation, ensuring the team's collective focus and progress.</li>
                         <li>Delivered a fully operational web based React App with Firebase Authentication and presented a successful team demonstration to a class of 35.</li>
+                    </ul>
+                </div>
+                <div className="project-item">
+                    <h3>Evaluating Infix Arithmetic Expressions</h3>
+                    <ul>
+                        <li>Created an operator stack to translate an infix expression into a postfix expression and an operand stack to evaluate the postfix expression. Detect illegal expressions like missing operands or division by zero through exception handling.</li>
                     </ul>
                 </div>
             </section>
