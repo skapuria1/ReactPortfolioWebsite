@@ -110,7 +110,7 @@ export default function Resume() {
                 </ul>
             </section>
             <button className="download-button" onClick={handleDownload}>
-                <i className="fas fa-download"></i> Download Resume
+                <i className="fas fa-download"></i> Download Resume (.pdf)
             </button>
         </div>
     );
