@@ -54,7 +54,7 @@ export default function Resume() {
                         <li>Resolved numerous technical tickets through the Jira ticketing system, addressing hardware and software issues with Five9, Front, and Slack.</li>
                         <li>Developed, designed, and implemented rate cards using React.js, HTML, and CSS, resolving any bugs or issues with rate card code.</li>
                         <li>Utilized Google Calendar API and Google Apps Script to automate creating, editing events triggered by certain conditions.</li>
-                        <li>• Maintained servers to ensure smooth operation, promptly addressing any issues or bugs to minimize downtime and optimize performance.</li>
+                        <li>Maintained servers to ensure smooth operation, promptly addressing any issues or bugs to minimize downtime and optimize performance.</li>
                     </ul>
                 </div>
 
