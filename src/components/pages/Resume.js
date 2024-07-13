@@ -1,9 +1,19 @@
-import React from 'react'
-import '../../App.css'
-import './Resume.css'
-import profilePic from './profile-pic.jpg'
+import React from 'react';
+import '../../App.css';
+import './Resume.css';
+import profilePic from './profile-pic.jpg';
+import resumePDF from './skapuria_resume.pdf'; // Make sure to place your resume PDF in the appropriate directory
 
 export default function Resume() {
+    const handleDownload = () => {
+        const link = document.createElement('a');
+        link.href = resumePDF;
+        link.download = 'Sammy_Kapuria_Resume.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
+
     return (
         <div className="resume">
             <header>
@@ -44,7 +54,7 @@ export default function Resume() {
                         <li>Resolved numerous technical tickets through the Jira ticketing system, addressing hardware and software issues with Five9, Front, and Slack.</li>
                         <li>Developed, designed, and implemented rate cards using React.js, HTML, and CSS, resolving any bugs or issues with rate card code.</li>
                         <li>Utilized Google Calendar API and Google Apps Script to automate creating, editing events triggered by certain conditions.</li>
-                        <li>•	Maintained servers to ensure smooth operation, promptly addressing any issues or bugs to minimize downtime and optimize performance.</li>
+                        <li>• Maintained servers to ensure smooth operation, promptly addressing any issues or bugs to minimize downtime and optimize performance.</li>
                     </ul>
                 </div>
 
@@ -99,6 +109,9 @@ export default function Resume() {
                     <li>Responsive Design</li>
                 </ul>
             </section>
+            <button className="download-button" onClick={handleDownload}>
+                <i className="fas fa-download"></i> Download Resume
+            </button>
         </div>
     );
 }
