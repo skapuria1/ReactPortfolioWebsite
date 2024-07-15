@@ -1,9 +1,7 @@
 import React from 'react'
 import '../App.css'
-import { Button } from './Button'
 import { ResumeButton } from './ResumeButton'
 import { ProjectButton } from './ProjectButton'
-import {Link} from 'react-router-dom';
 import './HeroSection.css'
 
 
@@ -14,7 +12,7 @@ function HeroSection() {
         <video src= {process.env.PUBLIC_URL +'videos/hoodie.mp4'} autoPlay loop muted />
         <h1>Sammy Kapuria,</h1>
         <p>
-          a skilled front-end developer dedicated to crafting engaging web experiences. 
+          a skilled fullstack developer dedicated to crafting engaging web experiences. 
           With several years of hands-on experience, my expertise lies in Java, Python, HTML, CSS, JavaScript, Java, C++, ReactJS, ensuring
           the creation of dynamic and user-centric websites. I thrive on employing innovative techniques to craft engaging web experiences 
           that captivate users and leave a lasting impact.
