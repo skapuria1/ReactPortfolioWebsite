@@ -98,11 +98,12 @@ export default function Resume() {
                 <h2>Skills</h2>
                 <ul>
                     <li>Python</li>
-                    <li>React</li>
+                    <li>Java</li>
+                    <li>ReactJS</li>
                     <li>Swift</li>
                     <li>C++</li>
-                    <li>JavaScript</li>
                     <li>HTML</li>
+                    <li>Javascript</li>
                     <li>CSS</li>
                     <li>SQL</li>
                     <li>Git</li>
