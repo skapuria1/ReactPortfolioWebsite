@@ -102,8 +102,8 @@ export default function Resume() {
                     <li>ReactJS</li>
                     <li>Swift</li>
                     <li>C++</li>
-                    <li>HTML</li>
                     <li>Javascript</li>
+                    <li>HTML</li>
                     <li>CSS</li>
                     <li>SQL</li>
                     <li>Git</li>
