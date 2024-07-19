@@ -2,7 +2,7 @@ import React from 'react';
 import '../../App.css';
 import './Resume.css';
 import profilePic from './profile-pic.jpg';
-import resumePDF from './skapuria_resume.pdf'; // resume pdf
+import resumePDF from './skapuria-resume.pdf'; // resume pdf
 
 export default function Resume() {
     const handleDownload = () => {
