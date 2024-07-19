@@ -50,11 +50,11 @@ export default function Resume() {
                     <ul>
                         <li>Led multiple projects, specializing in maximizing workflow efficiency and productivity by fully utilizing the G Suite platform, including comprehensive user management and feature utilization.</li>
                         <li>Enhanced and maintained multiple React-based applications by developing reusable and efficient React components, resulting in a 20% improvement in development speed for new features, and collaborated with senior developers, UX/UI designers, and QA teams to ensure optimal performance and timely delivery of updates.</li>
-                        <li>Automated the process of call logs and dispositions being FTP'd from Five9 to the local server using Python and MySQL, subsequently uploading them to Retool, significantly improving agent KPI tracking by management.</li>
-                        <li>Resolved numerous technical tickets through the Jira ticketing system, addressing hardware and software issues with Five9, Front, and Slack.</li>
+                        <li>Automated call log processing with Python and MySQL.</li>
+                        <li>Resolved technical issues using Jira.</li>
                         <li>Developed, designed, and implemented rate cards using React.js, HTML, and CSS, resolving any bugs or issues with rate card code.</li>
-                        <li>Utilized Google Calendar API and Google Apps Script to automate creating, editing events triggered by certain conditions.</li>
-                        <li>Maintained servers to ensure smooth operation, promptly addressing any issues or bugs to minimize downtime and optimize performance.</li>
+                        <li>Automated Google Calendar events with Apps Script.</li>
+                        <li>Maintained server operations and resolved bugs.</li>
                     </ul>
                 </div>
 
@@ -63,14 +63,13 @@ export default function Resume() {
                     <p>COLLEGE AIDE - ASSIGNMENT LEVEL II (INFORMATION TECHNOLOGY)</p>
                     <p>November 2019 - January 2023</p>
                     <ul>
-                        <li>Utilized SQL to query CIR databases for immunization records, providing essential information to healthcare providers and parents regarding the retrieval of immunization records.</li>
-                        <li>Assisted provider offices with vaccine orders and Vaccine for Children (VFC) Program re-enrollment and assist with providing education and information about the VFC program and its requirements.</li>
-                        <li>Successfully installed and configured various software applications across multiple platforms, including Windows, Mac, and Linux systems.</li>
-                        <li>Troubleshot Digital Data Logger software issues by conducting thorough analysis, identifying root causes, and implementing effective solutions to ensure seamless operation.</li>
-                        <li>Conducted investigations into provider site temperature excursion incidents; coordinates activities to resolve problems.</li>
-                        <li>During the COVID-19 pandemic, collaborated with cross-functional teams, including healthcare professionals, government agencies, and pharmaceutical companies, to streamline the COVID-19 vaccine distribution process and optimize resource allocation.</li>
-                        <li>Develop and conduct trainings for PQA and provider office staff on immunization best practices.</li>
-                        <li>Train providers on vaccine ordering and management, CIR reporting and vaccine accountability issues.</li>
+                        <li>Assisted with vaccine orders and VFC program re-enrollment.</li>
+                        <li>Queried CIR databases with SQL for immunization records.</li>
+                        <li>Installed and configured software across Windows, Mac, and Linux.</li>
+                        <li>Troubleshot Digital Data Logger software issues.</li>
+                        <li>Investigated and resolved provider site temperature excursions.</li>
+                        <li>During the COVID-19 pandemic, collaborated with healthcare, government, and pharmaceutical sectors to streamline vaccine distribution and resource allocation.</li>
+                        <li>Trained staff and providers on immunization best practices and vaccine management.</li>
                     </ul>
                 </div>
             </section>
@@ -89,7 +88,8 @@ export default function Resume() {
                 <div className="project-item">
                     <h3>Evaluating Infix Arithmetic Expressions</h3>
                     <ul>
-                        <li>Created an operator stack to translate an infix expression into a postfix expression and an operand stack to evaluate the postfix expression. Detect illegal expressions like missing operands or division by zero through exception handling.</li>
+                        <li>Created an operator stack to translate an infix expression into a postfix expression and an operand stack to evaluate the postfix expression.</li>
+                        <li>Implemented exception handling for illegal expressions like missing operands or division by zero through exception handling.</li>
                     </ul>
                 </div>
             </section>
