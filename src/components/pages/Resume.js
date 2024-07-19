@@ -2,7 +2,7 @@ import React from 'react';
 import '../../App.css';
 import './Resume.css';
 import profilePic from './profile-pic.jpg';
-import resumePDF from './skapuria_resume.pdf'; // Make sure to place your resume PDF in the appropriate directory
+import resumePDF from './skapuria_resume.pdf'; // resume
 
 export default function Resume() {
     const handleDownload = () => {
