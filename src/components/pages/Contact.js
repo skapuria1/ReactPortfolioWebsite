@@ -1,3 +1,4 @@
+// Contact.js
 import React, { useState } from 'react';
 import styles from './Contact.module.css';
 import '../../App.css';
@@ -18,11 +19,29 @@ export default function SignUp() {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle form submission (e.g., send data to server)
-    console.log('Form submitted:', formData);
-    setIsSubmitted(true);
+
+    try {
+      const response = await fetch('/.netlify/functions/submitForm', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (!response.ok) {
+        const errorText = await response.text();
+        throw new Error(errorText);
+      }
+
+      const result = await response.json();
+      console.log('Form submitted:', result);
+      setIsSubmitted(true);
+    } catch (error) {
+      console.error('Error submitting form:', error);
+    }
   };
 
   return (
