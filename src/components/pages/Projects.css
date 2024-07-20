@@ -1,65 +1,83 @@
-/*.products {
-    position: relative;
-    width: 300px; 
-  }*/
-  
-  /*.projects h1{
-    margin-bottom: 40px; /* Add some space between h1 and p 
-  }*/
-  .project-page {
-    position: relative;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('/public/images/projectsbackground.jpg');
-    background-size: cover;
-    filter: blur(4px);
-    z-index: -1;
-  }
-  .project-page header{
-    z-index: -2;
-    justify-content: left;
-    color: white;
-  }
-  .content {
-    z-index: 1;
-    text-align: center;
-    color: white;
-  }
-  
-  .repository {
-    margin-top: 20px;
-    padding-bottom: 70%;
-  }
-  
-  .repository a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s ease; /* Smooth transition for color change */
-    font-size: 24px;
-  }
-  
-  .repository a:hover {
-    color: #007bff; /* Change color on hover */
-  }
+.project-page {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
 
-  .content h1{
-    color: white;
-    font-size: 64px;
-    padding-bottom: 20%;
-  }
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/public/images/projectsbackground.jpg');
+  background-size: cover;
+  filter: blur(4px);
+  z-index: -1;
+}
 
-  .repository p{
-    color: rgb(185, 180, 180);
-    font-size: 30px;
-  }
-  
+.project-page header {
+  z-index: 1;
+  font-size: 48px;
+  margin: 20px 0;
+}
+
+.content {
+  z-index: 1;
+  text-align: center;
+}
+
+.repository {
+  margin-top: 20px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  max-width: 800px;
+}
+
+.repository a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 24px;
+}
+
+.repository a:hover {
+  color: #007bff;
+}
+
+.content h1 {
+  color: white;
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.repository p {
+  color: rgb(185, 180, 180);
+  font-size: 30px;
+}
+
+.repos {
+  margin-top: 20px;
+}
+
+.repo {
+  margin-bottom: 20px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+.repo h2 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.repo p {
+  margin: 5px 0 0;
+  font-size: 18px;
+}
