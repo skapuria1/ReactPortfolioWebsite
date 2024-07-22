@@ -1,4 +1,3 @@
-// Contact.js
 import React, { useState } from 'react';
 import styles from './Contact.module.css';
 import '../../App.css';
