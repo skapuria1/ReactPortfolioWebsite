@@ -7,7 +7,7 @@ exports.handler = async (event, context) => {
   try {
     const { name, email, message } = JSON.parse(event.body);
 
-    // Configure the transporter for Gmail
+    // Configure the transporter for Gmail 
     const transporter = nodemailer.createTransport({
       service: 'Gmail',
       auth: {
