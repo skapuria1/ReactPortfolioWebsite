@@ -17,6 +17,8 @@ exports.handler = async (event, context) => {
     });
 
     
+
+    
     // Mail options
     const mailOptions = {
       from: process.env.GMAIL_USER,
