@@ -99,6 +99,7 @@ export default function Resume() {
                 <ul>
                     <li>Python</li>
                     <li>Java</li>
+                    <li>.NET</li>
                     <li>ReactJS</li>
                     <li>Swift</li>
                     <li>C++</li>
@@ -107,7 +108,6 @@ export default function Resume() {
                     <li>CSS</li>
                     <li>SQL</li>
                     <li>Git</li>
-                    <li>Responsive Design</li>
                 </ul>
             </section>
             <button className="download-button" onClick={handleDownload}>

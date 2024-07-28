@@ -12,10 +12,12 @@ function HeroSection() {
         <video src= {process.env.PUBLIC_URL +'videos/hoodie.mp4'} autoPlay loop muted />
         <h1>Sammy Kapuria,</h1>
         <p>
-          a skilled fullstack developer dedicated to crafting engaging web experiences. 
-          With several years of hands-on experience, my expertise lies in Java, Python, HTML, CSS, JavaScript, Java, C++, ReactJS, ensuring
-          the creation of dynamic and user-centric websites. I thrive on employing innovative techniques to craft engaging web experiences 
-          that captivate users and leave a lasting impact.
+          a dedicated and skilled software developer with a commitment to excellence. 
+          With several years of hands-on experience, my expertise encompasses Java, 
+          Python, Java, .NET, C++, HTML, CSS, JavaScript, and ReactJS, enabling the creation 
+          of dynamic and user-centric solutions. I continuously refine my skills to 
+          deliver innovative and impactful digital experiences that engage and captivate 
+          users.
         </p>
         <div className='hero-btns'>
             <ResumeButton className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>RESUME</ResumeButton>
