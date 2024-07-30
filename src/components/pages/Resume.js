@@ -94,6 +94,7 @@ export default function Resume() {
                 </div>
             </section>
 
+
             <section className="skills">
                 <h2>Skills</h2>
                 <ul>
