@@ -2,7 +2,7 @@ import React from 'react';
 import '../../App.css';
 import './Resume.css';
 import profilePic from './profile-pic.jpg';
-import resumePDF from './skapuria-resume.pdf'; // resume pdf
+import resumePDF from './SKapuriaResume.pdf'; // resume pdf
 
 export default function Resume() {
     const handleDownload = () => {
@@ -44,9 +44,20 @@ export default function Resume() {
             <section className="experience">
                 <h2>Experience</h2>
                 <div className="experience-item">
+                    <h3>STRATFORD SOLUTIONS</h3>
+                    <p>SOFTWARE ENGINEER</p>
+                    <p>August 2024 - Present</p>
+                    <ul>
+                        <li>Developed enterprise-level applications to streamline business operations, focusing on automation and data processing.</li>
+                        <li>Utilized Visual Basic for Applications (VBA) to automate Outlook emails, triggering a Python script that converts XML files into custom PDF purchase orders, enhancing order processing efficiency. </li>
+                        <li>Created a Python program leveraging REST API from Oracle Business Network to automatically generate quotes in QuoteWerks using the QuoteWerks API, integrating the process server-side for seamless automation. </li>
+                        <li>Designed and implemented a Python Tkinter GUI application to convert PDF invoices into cXML files, offering options to download, email, or directly send them to the Oracle Business Network (OBN) for processing through the OBN API. </li>
+                    </ul>
+                </div>
+                <div className="experience-item">
                     <h3>GRIT PPO</h3>
-                    <p>Junior Developer</p>
-                    <p>February 2023 - Present</p>
+                    <p>JUNIOR DEVELOPER</p>
+                    <p>May 2023 - June 2024</p>
                     <ul>
                         <li>Led multiple projects, specializing in maximizing workflow efficiency and productivity by fully utilizing the G Suite platform, including comprehensive user management and feature utilization.</li>
                         <li>Enhanced and maintained multiple React-based applications by developing reusable and efficient React components, resulting in a 20% improvement in development speed for new features, and collaborated with senior developers, UX/UI designers, and QA teams to ensure optimal performance and timely delivery of updates.</li>
@@ -61,7 +72,7 @@ export default function Resume() {
                 <div className="experience-item">
                     <h3>NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE</h3>
                     <p>COLLEGE AIDE - ASSIGNMENT LEVEL II (INFORMATION TECHNOLOGY)</p>
-                    <p>November 2019 - January 2023</p>
+                    <p>November 2019 - April 2023</p>
                     <ul>
                         <li>Assisted with vaccine orders and VFC program re-enrollment.</li>
                         <li>Queried CIR databases with SQL for immunization records.</li>
